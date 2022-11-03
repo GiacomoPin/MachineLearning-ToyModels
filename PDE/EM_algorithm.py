@@ -13,7 +13,10 @@ import random
 import kmeans1d
 
 """ EXPECTATION-MAXIMIZATION ALGORITHM.
-Here we provide an example for the EM-algorithm, developed in order to estimate the probability density from a given data set. This technique is defined as semi-parametric and it combines both the advantages of parametric and non-parametric methods. The estimated density function is represented as a linear combination of basis function (Gaussian distribution), which are described by some parameters that can be optimized."""
+Here we provide an example for the EM-algorithm, developed in order to estimate the probability density from a given data set.
+This technique is defined as semi-parametric and it combines both the advantages of parametric and non-parametric methods.
+The estimated density function is represented as a linear combination of basis function (Gaussian distribution),
+which are described by some parameters that can be optimized."""
 
 ################################################################################
 #--------------------------SET OF FUNCTIONS------------------------------------#
@@ -41,7 +44,9 @@ def get_rand_on_G(min_v, max_v,mu,sigma):
 #------------------------------------------------------------------------------#
 #                             GENERATING DATA SET                              #
 #------------------------------------------------------------------------------#
-"""We create our fictional data set on which we are going to apply the EM-algorithm. The data set is created using 2 Gaussian distribution and we want to recover the values of the parameters of these density function. The algorithm can be easily generalized to higher dimensional data set and using different probability distribution."""
+"""We create our fictional data set on which we are going to apply the EM-algorithm. 
+The data set is created using 2 Gaussian distribution and we want to recover the values of the parameters of these density function. 
+The algorithm can be easily generalized to higher dimensional data set and using different probability distribution."""
 num_samples1 = 500
 num_samples2 = 100
 lower_bound  = 0
