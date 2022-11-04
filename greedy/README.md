@@ -1,8 +1,8 @@
 
-Greedy Algorithm - gray code
+# Greedy Algorithm - Gray Encoding
 
 Algoritmo di ottimizzazione greedy per l'allenamento di una rete neurale.
-I pesi della rete sono storati in una matrice che contiene tutti i layer.
+I pesi della rete sono allocati in una matrice che contiene tutti i parametri di tutti i layer.
 
 Una volta generata la configurazione iniziale i pesi vengono passati uno alla volta e si performa su ciascuno il flip di ogni di singolo bit. 
 
